@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik, serif ;
+    color: white;
+
+    font-weight: 500;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #2e3440;
+    overflow: hidden;
+}
+::selection {
+    background-color: #88C0D0;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url("Rubik-VariableFont_wght.ttf") format("woff2");
+}
+
+.app{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    /*background-color: rgb(0,0,0, 0.2);*/
+    padding: 2rem 4rem;
+    align-content: start;
+
+}
+.videoback {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+
+
+}
+
+.app:before {
+content: "";
+    background: url("images/patagoniapark.jpg") no-repeat center/cover;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+.test-btn {
+    border: 1px solid #2e3440;
+    background-color: rgb(67,76,94);
+    padding: 0.5rem 2rem;
+    width: max-content;
+    color: #88c0d0;
+    border-radius: 5px;
+    transition: transform 100ms ease-in-out;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.zipinput {
+all: unset;
+border-bottom: 4px solid rgb(0,0,0,.5);
+font-size: 2rem;
+font-weight: 500;
+color: rgb(255,255,255, 0.7);
+    width: 15rem;
+    text-align: center;
+
+}
+::placeholder {
+color: white;
+    opacity: 0.7;
+    font-size: 2rem;
+}
+.zipinputcon {
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+}
+.location {
+cursor: pointer;
+opacity: 1;
+height: 40px;
+
+}
+.location:hover {
+opacity: 0.4;
+}
+.search {
+cursor: pointer;
+opacity: 1;
+height: 40px;
+}
+.search:hover {
+opacity: 0.8;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.city, .state, .description, .wind {
+font-size: 1.5rem;
+}
+.state {
+margin-bottom: 2rem;
+}
+.tempsection {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: start;
+
+}
+.temp {
+font-size: 90px;
+font-weight: 700;
+margin-top: -1px;
+}
+.description {
+margin-top: 1rem;
+margin-bottom: 0.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 18px;
+
+}
+.github-icon {
+    background-image: url("images/GitHub-Mark-Light-32px.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 500ms;
+}
+.github-icon:hover {
+    transform: rotate(360deg);
+}
+
+
