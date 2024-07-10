@@ -1,7 +1,7 @@
 
-<h1 style="text-align: center;">Weather App</h1>
 
 <div align="center">
+<h1 style="text-align: center;">Weather App</h1>
   <img src="https://badges.aleen42.com/src/html5.svg" alt="html-badge">
   <img src="https://badges.aleen42.com/src/css3.svg" alt="css-badge">
   <img src="https://badges.aleen42.com/src/javascript.svg" alt="javascript-badge">
