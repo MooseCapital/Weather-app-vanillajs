@@ -13,11 +13,10 @@
 <br>
 
 >  Type in your zip code and get the current weather with a nice background image
-<br>
+> <br>
 >  Project is from [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app)
 
-
- <br>
+<br>
 
 👉 Images are hosted with Cloudinary cdn free account. If they are down, the api should still work. 
 Don't worry & remember to check out my more recent projects.
